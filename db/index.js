@@ -341,6 +341,8 @@ async function getUserByUsername(username) {
     throw error;
   }
 }
+
+
 module.exports = {
   client,
   getAllUsers,
